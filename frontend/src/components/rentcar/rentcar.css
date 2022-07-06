@@ -1,0 +1,108 @@
+.add-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    padding: 20px;
+}
+
+#datestyle{
+    float : left;
+    font-size: 0.9em;
+    padding-bottom: 0.3em;
+}
+
+#spacing{
+    float: left;
+        font-size: 0.9em;
+        padding-bottom: 0.3em;
+    padding-top: 0.5em;
+}
+
+#contact input[type="text"],input[type="number"] {
+    width: 100%;
+    background: #FFF;
+    background: #FFF;
+    margin: 0 0 5px;
+    padding: 10px;
+}
+
+#contact input[type="text"],input[type="number"] {
+    width: 100%;
+    border: 1px solid #ccc;
+    background: #FFF;
+    margin: 0 0 5px;
+    padding: 10px;
+}
+
+.btn {
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    border: 1px solid #ccc;
+    margin: 5px 0 5px;
+    padding: 10px;
+    font-size: 15px;
+    color: #515151;
+
+}
+
+  #contact input:focus {
+      outline: 0;
+      border: 1px solid #aaa;
+  }
+
+  h3{
+    font-family: "Lucida Sans Typewriter", monospace;
+    font-weight: 600;
+  }
+
+  .add {
+      max-width: 400px;
+      margin-top: 40px;
+  }
+
+
+
+  ul li {
+      list-style-type: none;
+  }
+
+  .pop-up {
+      color: #008000;
+
+  }
+
+  #car {
+      position: relative;
+      position: relative;
+      display: block;
+      width: 100%;
+      margin: 0 auto;
+      padding: 10px;
+      border: 1px solid #ccc;
+      outline: none;
+      background: #FFF;
+      color: #515151;
+
+  }
+  #btn-submit {
+      background-color: burlywood;
+      border: none;
+      color: #fff;
+
+  }
+
+  ::placeholder {
+      color: #515151;
+      opacity: 1;
+  }
+
+  :-ms-input-placeholder {
+      color: #515151;
+  }
+
+  ::-ms-input-placeholder {
+      color: #515151;
+  }
